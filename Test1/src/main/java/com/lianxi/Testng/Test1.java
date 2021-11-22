@@ -1,4 +1,4 @@
-package com.lianxi;
+package com.lianxi.Testng;
 
 import org.testng.annotations.Test;
 

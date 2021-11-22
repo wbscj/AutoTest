@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite  name = 'test'>
+    <test name = "loging">
+        <classes>
+            <class name="com.lianxi.Testng.Test.TestngConfig"/>
+            <class name="com.lianxi.Testng.Test.Loging"/>
+        </classes>
+    </test>
+    <test name = "pay">
+        <classes>
+            <class name="com.lianxi.Testng.Test.TestngConfig"/>
+            <class name="com.lianxi.Testng.Test.Pay"/>
+        </classes>
+    </test>
+</suite>
