@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Pay {
 
-    @Test(enabled = false)
+    @Test
     public void Paysuess(){
         System.out.println("支付成功！");
     }

@@ -2,6 +2,7 @@ package com.lianxi.Testng.Test;
 
 import org.testng.annotations.*;
 
+@Test(groups = "1")
 public class TestngConfig {
 
     @BeforeSuite
@@ -22,5 +23,15 @@ public class TestngConfig {
     @AfterTest
     public void aftertest(){
         System.out.println("AfterTest 运行了");
+    }
+
+    @BeforeGroups
+    public void beforgroups(){
+        System.out.println("BeforeGroups  运行了");
+    }
+
+    @AfterGroups
+    public void aftergtoups(){
+        System.out.println("AfterGroups 运行了");
     }
 }

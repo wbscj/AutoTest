@@ -2,6 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite  name = 'test'>
     <test name = "loging">
+        <groups>
+            <run>
+                <include name="1"/>
+            </run>
+        </groups>
         <classes>
             <class name="com.lianxi.Testng.Test.TestngConfig"/>
             <class name="com.lianxi.Testng.Test.Loging"/>
