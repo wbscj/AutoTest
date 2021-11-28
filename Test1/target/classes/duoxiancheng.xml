@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<suite name = "xiancheng" parallel = "methods" thread-count = "2">-->
+<!--&lt;!&ndash;    methods级别：所有用例都可以在不同的线程下去执行&ndash;&gt;-->
+<!--    <test name ="test1">-->
+<!--        <classes>-->
+<!--            <class name = "com.lianxi.Testng.Test.duoxiancheng2"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!--<suite name = "xiancheng" parallel = "tests" thread-count = "5">-->
+<!--&lt;!&ndash;    tests级别：相同test name 下的用例在同一线程下去执行，比如 name= test1  下有3个用例  3个都是同一线程&ndash;&gt;-->
+<!--&lt;!&ndash;                 不同 test name 下的用例在不同线程下执行&ndash;&gt;-->
+<!--    <test name ="test1">-->
+<!--        <classes>-->
+<!--            <class name = "com.lianxi.Testng.Test.duoxiancheng2"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="test2 ">-->
+<!--        <classes>-->
+<!--            <class name="com.lianxi.Testng.Test.duoxiancheng2"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<suite name = "xiancheng" parallel = "classes" thread-count = "1">
+
+    <test name ="test1">
+        <classes>
+            <class name = "com.lianxi.Testng.Test.duoxiancheng2"/>
+        </classes>
+    </test>
+    <test name="test2 ">
+        <classes>
+            <class name="com.lianxi.Testng.Test1"/>
+        </classes>
+    </test>
+</suite>
