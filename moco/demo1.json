@@ -106,6 +106,19 @@
         "Content-Type": "text/html;charset=gbk"
       }
     }
+  },
+  {
+    "description": "这是get请求,返回cookie",
+    "request": {
+      "uri": "/getResponseCookie",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是get请求，返回cookie",
+      "cookies": {
+        "login": "true"
+      }
+    }
   }
 ]
 

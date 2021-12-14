@@ -12,5 +12,6 @@
     <modules>
         <module>Test1</module>
         <module>moco</module>
+        <module>httpclientDemo</module>
     </modules>
 </project>
