@@ -119,6 +119,19 @@
         "login": "true"
       }
     }
+  },
+  {
+    "description": "这是一个get请求，需要带cookie 访问",
+    "request": {
+      "uri": "/getwithcookie",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "带着cookie 访问成功"
+    }
   }
 ]
 
