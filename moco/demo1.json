@@ -132,6 +132,27 @@
     "response": {
       "text": "带着cookie 访问成功"
     }
+  },
+  {
+    "description": "这是一个post请求，需要带cookie 和参数访问",
+    "request": {
+      "uri": "/postwithcookie",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "zhangsan",
+        "age": "20"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "name": "lisi",
+        "age": 20
+      }
+    }
   }
 ]
 
