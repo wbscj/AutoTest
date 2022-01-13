@@ -27,6 +27,9 @@ public class PostWithCookieAndJson {
         bundle = ResourceBundle.getBundle("application");
         url = bundle.getString("test.url");
     }
+    /*
+   获取cookie
+     */
 
     @Test
     public void getcookie() throws IOException {
@@ -53,7 +56,7 @@ public class PostWithCookieAndJson {
 
     }
 
-
+//带着cook 访问接口
     @Test(dependsOnMethods = {"getcookie"})
     public void postwithcookie() throws IOException {
         String uri = bundle.getString("uri_postwithcookie");
