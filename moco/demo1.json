@@ -153,6 +153,28 @@
         "age": 20
       }
     }
+  },
+
+  {
+    "description": "jmeter测试用",
+    "request": {
+      "method": "get",
+      "uri": "/get/jmeter"
+    },
+    "response": {
+      "json": {
+          "data":  {
+            "cardApplyId": "CB10898420793696" ,
+            "ad": "12312321321321",
+            "msg": "成功" ,
+            "respCode": "1000" ,
+            "smsVerificationResult": "1" ,
+            "success": true
+          },
+          "message": "请求成功" ,
+          "status": "000000"
+      }
+    }
   }
 ]
 
