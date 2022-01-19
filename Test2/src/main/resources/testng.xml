@@ -9,6 +9,8 @@
                 <include name = "test2"/>
                 <include name = "test3"/>
                 <include name = "Log"/>
+                <include name = "testgetcookie"/>
+                <include name = "getAndcookie"/>
             </methods>
 
         </classes>
