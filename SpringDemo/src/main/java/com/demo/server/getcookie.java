@@ -1,10 +1,7 @@
 package com.demo.server;
 
 import org.springframework.http.HttpRequest;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -71,7 +68,15 @@ public class getcookie {
             return list;
     }
 
+    @RequestMapping(value = "/getwithmap2/{start}/{end}")
+    public Map<String,Integer> getvalue2(@PathVariable Integer start, @PathVariable Integer end){
+        Map<String,Integer> list = new HashMap<>();
+        list.put("矿泉水",5);
+        list.put("瓜子",7);
+        list.put("火腿",3);
+        return list;
 
+    }
 
 
 }
