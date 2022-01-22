@@ -1,5 +1,7 @@
 package com.demo.server;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +14,7 @@ import java.util.Objects;
 
 
 @RestController
+@Api(value = "/",description = "这里的接口都是和get有关的")
 public class getcookie {
     /***
      * 返回文字信息
@@ -24,9 +27,10 @@ public class getcookie {
     }
 
     /***
-     * 返回到信息带有cookie
+     * 返回的信息带有cookie
      */
     @RequestMapping(value = "/getcookie",method = RequestMethod.GET)
+    @ApiOperation(value = "这是获取cookie 的接口")
     public String getcookie1(HttpServletResponse  response){
         Cookie cookie = new Cookie("login","true");
         response.addCookie(cookie);
@@ -39,6 +43,7 @@ public class getcookie {
      * @return
      */
     @RequestMapping(value = "/get/with/cookie",method = RequestMethod.GET)
+    @ApiOperation("带着cookie访问")
     public String getwithcookie(HttpServletRequest request){
         Cookie[] cookies = request.getCookies();
         if (Objects.isNull(cookies)){
@@ -60,6 +65,7 @@ public class getcookie {
      * @return
      */
     @RequestMapping(value = "/getwithmap",method = RequestMethod.GET)
+    @ApiOperation(value = "url中带参数的get请求",httpMethod = "GET")
     public Map<String,Integer> getvalue(@RequestParam Integer start,@RequestParam Integer end){
             Map<String,Integer> list = new HashMap<>();
             list.put("方便面",10);
@@ -68,8 +74,9 @@ public class getcookie {
             return list;
     }
 
-    @RequestMapping(value = "/getwithmap2/{start}/{end}")
-    public Map<String,Integer> getvalue2(@PathVariable Integer start, @PathVariable Integer end){
+    @RequestMapping(value = "/getwithmap2/{start}/{end}",method = RequestMethod.GET)
+    @ApiOperation(value = "url中直接传参数的值",httpMethod = "GET")
+    public Map<String,Integer> getvalue2(@PathVariable String start, @PathVariable Integer end){
         Map<String,Integer> list = new HashMap<>();
         list.put("矿泉水",5);
         list.put("瓜子",7);
