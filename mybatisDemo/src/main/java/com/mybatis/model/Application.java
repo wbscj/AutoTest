@@ -13,7 +13,6 @@ import javax.annotation.PreDestroy;
 
 @EnableScheduling
 @SpringBootApplication
-//        (exclude = { DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class })
 public class Application {
 
     private  static ConfigurableApplicationContext context;
@@ -28,3 +27,4 @@ public class Application {
     }
 
 }
+
