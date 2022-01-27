@@ -11,7 +11,7 @@ spring:
     name: mytest
   datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/test_mybatis
+      url: jdbc:mysql://localhost:3306/Test_mybatis
       username: root
       password: qwer1234
 
