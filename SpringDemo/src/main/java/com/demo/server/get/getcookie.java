@@ -22,7 +22,6 @@ public class getcookie {
      */
     @RequestMapping(value = "/cookie",method = RequestMethod.GET)
     public String cookie1(){
-
         return "获取cookie成功！";
     }
 

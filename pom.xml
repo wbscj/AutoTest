@@ -15,6 +15,7 @@
         <module>httpclientDemo</module>
         <module>SpringDemo</module>
         <module>mybatisDemo</module>
+        <module>mybatisAndMysql2</module>
     </modules>
 
     <parent>

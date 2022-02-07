@@ -1,0 +1,436 @@
+2022-01-25 00:00:28.464 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11222 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:00:28.468 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:00:29.227 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mybatis.model]' package. Please check your configuration.
+2022-01-25 00:00:29.679 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:00:29.699 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:00:29.700 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:00:29.799 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:00:29.799 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1283 ms
+2022-01-25 00:00:29.861 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-01-25 00:00:29.861 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:00:29.863 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:00:29.877 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:00:29.894 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-01-25 00:04:56.682 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11254 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:04:56.686 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:04:57.593 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:04:57.602 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:04:57.602 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:04:57.677 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:04:57.677 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 933 ms
+2022-01-25 00:04:57.719 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:04:57.719 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:04:57.721 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:04:57.735 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:04:57.751 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:13:23.212 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11311 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:13:23.215 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:13:24.126 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:13:24.135 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:13:24.136 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:13:24.217 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:13:24.217 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 942 ms
+2022-01-25 00:13:24.259 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:13:24.260 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:13:24.262 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:13:24.275 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:13:24.296 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:13:53.692 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11319 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:13:53.695 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:13:54.548 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:13:54.554 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:13:54.554 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:13:54.614 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:13:54.614 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 796 ms
+2022-01-25 00:13:54.647 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:13:54.648 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:13:54.649 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:13:54.659 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:13:54.671 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:14:15.033 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11324 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:14:15.036 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:14:15.942 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:14:15.948 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:14:15.948 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:14:16.007 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:14:16.007 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 915 ms
+2022-01-25 00:14:16.157 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-25 00:14:16.356 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2022-01-25 00:14:16.392 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-01-25 00:14:16.403 [main] INFO  com.mybatis.model.Application - Started Application in 1.93 seconds (JVM running for 2.736)
+2022-01-25 00:14:54.266 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-25 00:14:54.268 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-25 00:14:54.273 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2022-01-25 00:14:54.317 [http-nio-8888-exec-1] ERROR o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.mybatis.model.controller.demo1.getUserCount(demo1.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-01-25 00:16:13.727 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2022-01-25 00:16:13.730 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-25 00:16:18.801 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11341 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:16:18.820 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:16:19.685 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:16:19.692 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:16:19.693 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:16:19.750 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:16:19.750 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 864 ms
+2022-01-25 00:16:19.787 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:16:19.787 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:16:19.789 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:16:19.800 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:16:19.813 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:20:07.439 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11365 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:20:07.442 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:20:08.460 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:20:08.469 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:20:08.469 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:20:08.567 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:20:08.568 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1047 ms
+2022-01-25 00:20:08.650 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:20:08.650 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:20:08.652 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:20:08.668 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:20:08.726 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:25:03.827 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11398 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:25:03.833 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:25:04.778 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:25:04.788 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:25:04.789 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:25:04.879 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:25:04.880 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 975 ms
+2022-01-25 00:25:04.922 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:25:04.922 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:25:04.924 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:25:04.944 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:25:04.962 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:27:16.405 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11427 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:27:16.409 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:27:17.557 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:27:17.569 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:27:17.570 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:27:17.745 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:27:17.745 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1268 ms
+2022-01-25 00:27:17.808 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-25 00:27:17.809 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:27:17.811 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:27:17.824 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:27:17.840 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.mybatis.model.controller.demo1 required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2022-01-25 00:27:42.132 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 11433 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:27:42.135 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:27:42.833 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mybatis.model]' package. Please check your configuration.
+2022-01-25 00:27:43.126 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:27:43.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:27:43.134 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:27:43.194 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:27:43.194 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1007 ms
+2022-01-25 00:27:43.250 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-01-25 00:27:43.250 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:27:43.252 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:27:43.263 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:27:43.276 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-01-25 00:36:48.880 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 12369 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:36:48.883 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:36:49.574 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mybatis.model]' package. Please check your configuration.
+2022-01-25 00:36:49.928 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:36:49.936 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:36:49.936 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:36:50.014 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:36:50.015 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1075 ms
+2022-01-25 00:36:50.091 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-01-25 00:36:50.092 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:36:50.098 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:36:50.141 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:36:50.174 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-01-25 00:41:39.715 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 12484 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-25 00:41:39.724 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-25 00:41:40.747 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mybatis.model]' package. Please check your configuration.
+2022-01-25 00:41:41.082 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-25 00:41:41.094 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-25 00:41:41.094 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 00:41:41.184 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-25 00:41:41.184 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1298 ms
+2022-01-25 00:41:41.245 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo1': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-01-25 00:41:41.245 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception: java.lang.NullPointerException
+2022-01-25 00:41:41.247 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-25 00:41:41.261 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 00:41:41.276 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-01-27 22:20:48.745 [main] INFO  com.mybatis.model.Application - Starting Application using Java 1.8.0_144 on wumingyangdeMacBook-Pro.local with PID 16901 (/Users/wumingyang/JAVA学习/代码练习/AutoTest/mybatisDemo/target/classes started by wumingyang in /Users/wumingyang/JAVA学习/代码练习/AutoTest)
+2022-01-27 22:20:48.749 [main] INFO  com.mybatis.model.Application - No active profile set, falling back to default profiles: default
+2022-01-27 22:20:49.534 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mybatis.model]' package. Please check your configuration.
+2022-01-27 22:20:49.920 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-01-27 22:20:49.932 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-27 22:20:49.933 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-27 22:20:50.022 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-27 22:20:50.022 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+2022-01-27 22:20:50.413 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-27 22:20:50.576 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2022-01-27 22:20:50.620 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-01-27 22:20:50.635 [main] INFO  com.mybatis.model.Application - Started Application in 2.478 seconds (JVM running for 3.377)
+2022-01-27 22:21:05.415 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 22:21:05.416 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-27 22:21:05.417 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-27 22:21:05.536 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-27 22:21:05.539 [http-nio-8888-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-27 22:21:06.014 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

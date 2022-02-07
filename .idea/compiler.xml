@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Test1" />
-        <module name="mybatisDemo" />
+        <module name="mybatisAndmysql" />
         <module name="httpclientDemo" />
-        <module name="moco" />
         <module name="SpringDemo" />
+        <module name="mybatisAndMysql2" />
+        <module name="mybatisDemo" />
+        <module name="moco" />
         <module name="Test2" />
       </profile>
     </annotationProcessing>
@@ -19,6 +21,9 @@
       <module name="AutoTest" target="1.8" />
       <module name="httpclientDemo" target="8" />
       <module name="moco" target="8" />
+      <module name="mybatis+mysql1" target="8" />
+      <module name="mybatisAndmysql" target="8" />
+      <module name="mybatisAndMysql2" target="8" />
       <module name="mybatisDemo" target="8" />
       <module name="SpringDemo" target="8" />
       <module name="Test1" target="8" />
@@ -30,6 +35,9 @@
       <module name="SpringDemo" options="-parameters" />
       <module name="httpclientDemo" options="-parameters" />
       <module name="moco" options="-parameters" />
+      <module name="mybatis+mysql1" options="-parameters" />
+      <module name="mybatisAndMysql2" options="-parameters" />
+      <module name="mybatisAndmysql" options="-parameters" />
       <module name="mybatisDemo" options="-parameters" />
     </option>
   </component>

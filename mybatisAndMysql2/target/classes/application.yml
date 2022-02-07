@@ -1,0 +1,24 @@
+server:
+   port: 8081
+
+logging:
+    path: logs
+    file: mylog.log
+    level:
+      com.example.demo.dao: debug
+
+
+spring:
+   application:
+          name: report
+   datasource:
+       driver-class-name: com.mysql.jdbc.Driver
+       url: jdbc:mysql://localhost:3306/test_mybatis?serverTimezone=GMT
+       username: root
+       password: qwer1234
+
+mybatis:
+    type-aliases-package: com.course.model
+    mapper-locations: ./mapper/*
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

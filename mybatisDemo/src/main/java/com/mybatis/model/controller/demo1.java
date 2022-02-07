@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/v1")
 @Api(value = "这里是mybatis的demo")
 public class demo1 {
+    
 
     @Autowired
     private SqlSessionTemplate template;
