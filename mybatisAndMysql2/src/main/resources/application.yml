@@ -2,8 +2,9 @@ server:
    port: 8081
 
 logging:
-    path: logs
-    file: mylog.log
+  file:
+    path: ./logs
+    name: mylog.log
     level:
       com.example.demo.dao: debug
 
