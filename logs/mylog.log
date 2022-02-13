@@ -245,3 +245,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'isDelete' in 'where clause'
 2022-02-09 00:20:06.434 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 2022-02-09 00:20:06.435 [http-nio-8081-exec-3] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
 2022-02-09 00:20:06.696 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-09 00:24:24.910 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2022-02-09 00:24:24.913 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-09 00:24:24.917 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-09 00:24:24.926 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

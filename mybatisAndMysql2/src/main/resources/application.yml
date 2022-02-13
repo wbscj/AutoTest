@@ -3,8 +3,8 @@ server:
 
 logging:
   file:
-    path: ./logs
-    name: mylog.log
+    path: logs
+    name: mybatisAandMysql2.log
     level:
       com.example.demo.dao: debug
 
