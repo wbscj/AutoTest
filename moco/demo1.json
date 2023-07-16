@@ -185,7 +185,17 @@
     "response": {
       "json": {"data":{"msg":"服务器错误","respCode":"1003","success":false},"message":"服务器错误","status":"000001"}
     }
+  },
+
+  {
+    "description":"为Httclient 模式post请求"
   }
+
+
+
+
+
+
 ]
 
 

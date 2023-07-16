@@ -7,33 +7,54 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Test1" />
-        <module name="mybatisAndmysql" />
+        <module name="Test_http" />
+        <module name="Test_writeAndreader" />
         <module name="httpclientDemo" />
         <module name="SpringDemo" />
+        <module name="learn" />
+        <module name="Test_Socket" />
         <module name="mybatisAndMysql2" />
-        <module name="mybatisDemo" />
-        <module name="moco" />
+        <module name="Test_FileSplit" />
         <module name="Test2" />
+        <module name="Test1" />
+        <module name="mybatisAndmysql" />
+        <module name="Test_copy" />
+        <module name="mybatisDemo" />
+        <module name="SJKDaoChu" />
+        <module name="moco" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoTest" target="1.8" />
       <module name="httpclientDemo" target="8" />
+      <module name="learn" target="8" />
       <module name="moco" target="8" />
       <module name="mybatis+mysql1" target="8" />
       <module name="mybatisAndmysql" target="8" />
       <module name="mybatisAndMysql2" target="8" />
       <module name="mybatisDemo" target="8" />
+      <module name="SJKDaoChu" target="8" />
       <module name="SpringDemo" target="8" />
       <module name="Test1" target="8" />
       <module name="Test2" target="8" />
+      <module name="Test_copy" target="8" />
+      <module name="Test_FileSplit" target="8" />
+      <module name="Test_http" target="8" />
+      <module name="Test_Socket" target="8" />
+      <module name="Test_writeAndreader" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SJKDaoChu" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
+      <module name="Test_FileSplit" options="-parameters" />
+      <module name="Test_Socket" options="-parameters" />
+      <module name="Test_copy" options="-parameters" />
+      <module name="Test_http" options="-parameters" />
+      <module name="Test_writeAndreader" options="-parameters" />
       <module name="httpclientDemo" options="-parameters" />
+      <module name="learn" options="-parameters" />
       <module name="moco" options="-parameters" />
       <module name="mybatis+mysql1" options="-parameters" />
       <module name="mybatisAndMysql2" options="-parameters" />

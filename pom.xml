@@ -16,6 +16,13 @@
         <module>SpringDemo</module>
         <module>mybatisDemo</module>
         <module>mybatisAndMysql2</module>
+        <module>Test_Socket</module>
+        <module>Test_http</module>
+        <module>Test_copy</module>
+        <module>Test_writeAndreader</module>
+        <module>Test_FileSplit</module>
+        <module>learn</module>
+        <module>SJKDaoChu</module>
     </modules>
 
     <parent>
