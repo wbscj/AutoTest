@@ -7,6 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/AutoTest3/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AutoTest3/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/mybatisDemo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AutoTest2/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/${project.build.directory}/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/${project.build.directory}/test-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -96,5 +99,6 @@
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.9" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.15.3" level="project" />
   </component>
 </module>

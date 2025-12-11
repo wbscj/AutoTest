@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoJD/AutoJD.iml" filepath="$PROJECT_DIR$/AutoJD/AutoJD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTest.iml" filepath="$PROJECT_DIR$/.idea/AutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoTest2/AutoTest2.iml" filepath="$PROJECT_DIR$/AutoTest2/AutoTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GM/GM.iml" filepath="$PROJECT_DIR$/GM/GM.iml" />
       <module fileurl="file://$PROJECT_DIR$/SJKDaoChu/SJKDaoChu.iml" filepath="$PROJECT_DIR$/SJKDaoChu/SJKDaoChu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDemo/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo/SpringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test1/Test1.iml" filepath="$PROJECT_DIR$/Test1/Test1.iml" />
@@ -13,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Test_writeAndreader/Test_writeAndreader.iml" filepath="$PROJECT_DIR$/Test_writeAndreader/Test_writeAndreader.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclientDemo/httpclientDemo.iml" filepath="$PROJECT_DIR$/httpclientDemo/httpclientDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn/learn.iml" filepath="$PROJECT_DIR$/learn/learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ltzf/ltzf.iml" filepath="$PROJECT_DIR$/ltzf/ltzf.iml" />
       <module fileurl="file://$PROJECT_DIR$/moco/moco.iml" filepath="$PROJECT_DIR$/moco/moco.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisAndMysql2/mybatisAndMysql2.iml" filepath="$PROJECT_DIR$/mybatisAndMysql2/mybatisAndMysql2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisAndmysql/mybatisAndmysql.iml" filepath="$PROJECT_DIR$/mybatisAndmysql/mybatisAndmysql.iml" />

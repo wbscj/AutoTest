@@ -10,8 +10,11 @@
         <module name="Test_http" />
         <module name="Test_writeAndreader" />
         <module name="httpclientDemo" />
+        <module name="AutoTest2" />
         <module name="SpringDemo" />
         <module name="learn" />
+        <module name="ltzf" />
+        <module name="GM" />
         <module name="Test_Socket" />
         <module name="mybatisAndMysql2" />
         <module name="Test_FileSplit" />
@@ -19,15 +22,22 @@
         <module name="Test1" />
         <module name="mybatisAndmysql" />
         <module name="Test_copy" />
+        <module name="jichu" />
         <module name="mybatisDemo" />
+        <module name="AutoJD" />
         <module name="SJKDaoChu" />
         <module name="moco" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AutoJD" target="8" />
       <module name="AutoTest" target="1.8" />
+      <module name="AutoTest2" target="1.5" />
+      <module name="GM" target="8" />
       <module name="httpclientDemo" target="8" />
+      <module name="jichu" target="8" />
       <module name="learn" target="8" />
+      <module name="ltzf" target="8" />
       <module name="moco" target="8" />
       <module name="mybatis+mysql1" target="8" />
       <module name="mybatisAndmysql" target="8" />
@@ -46,6 +56,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AutoJD" options="-parameters" />
+      <module name="GM" options="-parameters" />
       <module name="SJKDaoChu" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
       <module name="Test_FileSplit" options="-parameters" />
@@ -55,6 +67,7 @@
       <module name="Test_writeAndreader" options="-parameters" />
       <module name="httpclientDemo" options="-parameters" />
       <module name="learn" options="-parameters" />
+      <module name="ltzf" options="-parameters" />
       <module name="moco" options="-parameters" />
       <module name="mybatis+mysql1" options="-parameters" />
       <module name="mybatisAndMysql2" options="-parameters" />

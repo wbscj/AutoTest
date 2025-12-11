@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AutoJD/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GM/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SJKDaoChu/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Test_FileSplit/src/main/java" charset="UTF-8" />
@@ -8,7 +10,10 @@
     <file url="file://$PROJECT_DIR$/Test_copy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Test_writeAndreader/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/httpclientDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jichu/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jichu/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ltzf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisAndMysql2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisAndmysql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisAndmysql/src/main/resources" charset="UTF-8" />

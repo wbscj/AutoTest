@@ -17,12 +17,16 @@
         <module>mybatisDemo</module>
         <module>mybatisAndMysql2</module>
         <module>Test_Socket</module>
-        <module>Test_http</module>
+<!--        <module>Test_http</module>-->
         <module>Test_copy</module>
         <module>Test_writeAndreader</module>
         <module>Test_FileSplit</module>
         <module>learn</module>
         <module>SJKDaoChu</module>
+        <module>ltzf</module>
+        <module>AutoJD</module>
+        <module>GM</module>
+        <module>jichu</module>
     </modules>
 
     <parent>
@@ -73,6 +77,18 @@
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.15.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
         </dependency>
     </dependencies>
 
